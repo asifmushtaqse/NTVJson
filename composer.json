@@ -15,9 +15,6 @@
             "ClimeSoft\\NTVJson\\": "src"
         }
     },
-    "require-dev": {
-        "orchestra/testbench": "^6.0"
-    },
     "extra": {
         "laravel": {
             "providers": [
