@@ -1,0 +1,28 @@
+{
+    "name": "climesoft/ntv-json",
+    "description": "A package to show the shows in the json list",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Asif Mushtaq",
+            "email": "asifmushtaq18@live.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "ClimeSoft\\NTVJson\\": "src"
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ClimeSoft\\NTVJson\\Providers\\NTVJSONServiceProvider"
+            ]
+        }
+    }
+}
